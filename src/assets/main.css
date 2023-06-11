@@ -1,0 +1,10 @@
+@import url('./base.css');
+@layer utilities {
+  .bg-primary {
+    background-color: var(--bui_color_brand_primary_background);
+  }
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
